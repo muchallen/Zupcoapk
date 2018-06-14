@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="all">
+        <item
+                android:id="@+id/clutch_prob"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="CLUTCH SYSTEM PROBLEM"/>
+
+        <item
+                android:id="@+id/driveline_prob"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="DRIVELINE PROBLEM"/>
+        <item
+                android:id="@+id/airleakage_prob"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="AIR LEAKAGE"/>
+        <item
+                android:id="@+id/rad_prob"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="RADIATOR PROBLEM"
+
+        />
+        <item
+                android:id="@+id/engine_overheating"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="ENGINE OVERHEATING"/>
+        <item
+                android:id="@+id/brake_failure"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="BRAKE FAILURE"/>
+        <item
+                android:id="@+id/broken_gear"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="BROKEN GEAR CABLE"/>
+        <item
+                android:id="@+id/tyre_puncture"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="TYRE PUNCTURE"/>
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Share"/>
+            <item
+                    android:id="@+id/nav_send"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="Send"/>
+        </menu>
+    </item>
+
+</menu>

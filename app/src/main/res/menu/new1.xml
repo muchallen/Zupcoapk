@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+
+
+    <item
+            android:id="@+id/clutch_prob"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Failure Detection"/>
+
+    <item
+            android:id="@+id/driveline_prob"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Effects"/>
+    <item
+            android:id="@+id/airleakage_prob"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Preventive Measures"/>
+    <item
+            android:id="@+id/rad_prob"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Corrective Measures"
+
+    />
+
+
+
+
+
+
+</menu>
